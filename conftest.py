@@ -12,8 +12,8 @@ def browser_management():
     options = webdriver.ChromeOptions()
     # options.add_argument('--headless')
     browser.config.driver_options = options
-    browser.config.window_height = 100
-    browser.config.window_width = 500
+    browser.config.window_height = 1080
+    browser.config.window_width = 1920
     browser.config.timeout = 10
 
     browser.config._wait_decorator = support._logging.wait_with(
